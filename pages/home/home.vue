@@ -1,7 +1,7 @@
 <template name="home">
 	<view>
 		<scroll-view>
-			<u-navbar  title="我的"></u-navbar>
+			<u-navbar back-icon-name title="我的"></u-navbar>
 			<!-- 轮播 -->
 			<!-- <swiper class="screen-swiper square-dot"  :indicator-dots="true" :circular="true"
 			 :autoplay="true" interval="5000" duration="500" :style="[{animation: 'show 0.2s 1'}]">
