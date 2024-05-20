@@ -17,7 +17,7 @@ export const us = {
       icon:icon_prefix+"zhoubao.png",
       description:"总结每周的工作情况和下周计划",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'driver'
     },
   ]
 }
