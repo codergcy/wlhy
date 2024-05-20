@@ -23,7 +23,9 @@ Vue.prototype.$store=store;
 Vue.prototype.$tip=tip;
 // config
 Vue.prototype.$config=configService;
-
+// main.js
+import uView from "uview-ui";
+Vue.use(uView);
 // request请求
 import { http } from '@/common/service/service.js' 
 Vue.prototype.$http = http

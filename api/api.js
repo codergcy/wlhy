@@ -6,26 +6,26 @@ const apiService = {
 	  * 登录
 	  */
 	login(params) {
-		return http.post('/sys/mLogin',params)	
+		return http.post('/sys/login',params)	
 	},
 	/**
 	  * 手机号码登录
 	  */
 	phoneNoLogin(params) {
-		return http.post('/sys/phoneLogin',params);
+		return http.post('/sys/phoneLoginPC',params);
 	},
 	/**
 	  * 第三方登录
 	  */
-	thirdLogin(token, thirdType,tenantId) {
-		return http.get(`/sys/thirdLogin/getLoginUser/${token}/${thirdType}/${tenantId}`);
-	},
+	// thirdLogin(token, thirdType,tenantId) {
+	// 	return http.get(`/sys/thirdLogin/getLoginUser/${token}/${thirdType}/${tenantId}`);
+	// },
 	/**
 	  * 退出
 	  */
-	logout(params) {
-		return http.post('/sys/logout',params);
-	},
+	// logout(params) {
+	// 	return http.post('/user/logout',params);
+	// },
 	/**
 	 * 获取文件访问路径
 	 * @param avatar
