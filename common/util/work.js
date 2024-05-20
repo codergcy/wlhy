@@ -7,15 +7,15 @@ const  icon_prefix="/static/home/128/"
 export const us = {
   data:[
     {
-      title:"挂车管理",
+      title:"承运人管理",
       icon:icon_prefix+"richang.png",
-      description:"挂车管理",
+      description:"承运人管理",
       useCount:1000,
 	  page:'carrier'
     },{
-      title:"周报",
+      title:"车辆管理",
       icon:icon_prefix+"zhoubao.png",
-      description:"总结每周的工作情况和下周计划",
+      description:"车辆管理",
       useCount:10000,
 	  page:'driver'
     },
@@ -29,17 +29,17 @@ export const us = {
 export const os = {
   data:[
     {
-      title:"新闻中心",
+      title:"车辆管理",
       icon:icon_prefix+"xinwen.png",
-      description:"新闻中心",
+      description:"车辆管理",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'vehicle'
     },{
-      title:"投票中心",
+      title:"挂车管理",
       icon:icon_prefix+"toupiao.png",
-      description:"投票中心",
+      description:"挂车管理",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'trailer'
     },
   ]
 }
