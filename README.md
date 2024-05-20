@@ -1,3 +1,21 @@
+#  基于jeecgUniapp二次开发的运营审核app 重制版
+
+## 注意点
+
+### 1. 第一次uniapp编译小程序时，未找到app.json，需要修改项目配置文件
+在project.config.json加入
+ "miniprogramRoot": "unpackage/dist/dev/mp-weixin/",
+  "srcMiniprogramRoot": "unpackage/dist/dev/mp-weixin/"
+
+### 2.关于调试组件库报错
+微信小程序详情中使用2.25.4版本调试库
+
+### 3.删除static文件
+优化代码质量：删除本地静态资源
+
+### 4.组件 启用组件按需注入
+优化代码质量：在微信开发者工具中,在目录文件名unpackage中mp-weixin的app.json中加入
+  "lazyCodeLoading": "requiredComponents",
 # JeecgUniapp项目介绍
 JeecgBoot - APP移动解决方案，采用uniapp框架，一份代码多终端适配，同时支持APP、小程序、H5！实现了与[JeecgBoot低代码平台](https://github.com/jeecgboot/jeecg-boot)完美对接！目前已经实现登录、用户信息、通讯录、公告、移动首页、九宫格等基础功能，更多功能请自己扩展。
 
