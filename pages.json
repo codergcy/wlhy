@@ -189,6 +189,14 @@
 				"navigationBarTitleText" : "",
 				"enablePullDownRefresh" : true
 			}
+		},
+		{
+			"path" : "pages/trailer/trailer",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 		
 	],
